@@ -151,11 +151,13 @@ function gameOver() {
     {
       title: `Game Over!!!`,
       text: "Thanks for playing!!",
+      imageUrl: "https://raw.githubusercontent.com/vishalgaddam873/PiratesInvision/main/assets/board.png",
+      imageSize: "150x150",
       confirmButtonText: "Play Again"
     },
     function(isConfirm) {
       if (isConfirm) {
-        location.reload();am8
+        location.reload();
       }
     }
   );
